@@ -9,5 +9,5 @@ bool numerip (int n, int a){
   }else if (n%a==0){
     return false;
   }
-          return numerip(n, a-1);
+        numerip(n, --a);
            }
